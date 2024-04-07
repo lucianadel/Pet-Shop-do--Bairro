@@ -1,11 +1,142 @@
-/* Estilo do menu */
+    /* reset */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-/* Estilo da sessão de início com nome e apresentação */
+    /* estilizando o cabeçalho */
+    header {
+        padding: 16px;
+        background: #0F4271;
+        color: #E8B13D;
+    }
 
-/* Estilo dasessão de cachorros para adoção */
+    /* Estilo do menu */
+    header nav li {
+        display: inline;
+        margin-left: 24px;
+        font-size: 18px;
+    }
 
-/* Estilo da sessão de gatos para adoção */
+    header nav li a {
+        color: #E8B13D;
+        text-decoration: none;
+    }
 
-/* Estilo do formulário de contato */
+    .container {
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+    }
 
-/* Estilo do footer */
+    header .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    /* Estilo so sobre   */
+    #Sobre h1 {
+        font-size: 80px;
+    }
+
+    #Sobre p {
+        font-size: 25px;
+    }
+
+    #Sobre {
+        text-align: center;
+        height: 80vh;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+    }
+
+    #caes .container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .animal_img img {
+        width: 350px;
+        height: 350px;
+    }
+
+
+    /* section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 800px;
+        margin: 0 auto;
+        background-color: #E8B13D;
+    }
+
+    #gato{
+        background-color:#0F4271 ;
+    }
+
+    section div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+    }
+
+    section div img {
+        width: 200px;
+        margin: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    section div p {
+        text-align: left;
+        font-size: 16px;
+        line-height: 1.5;
+        margin: 10px;
+        color: #0F4271 ;
+    }
+
+    section div h2 {
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        color:#E8B13D;
+    }
+
+    section h1 {
+        text-align: center;
+        font-size: 24px;
+        margin: 20px 0;
+        
+    } */
+
+
+
+
+
+
+
+
+
+
+
+
+    /* Estilo da sessão de início com nome e apresentação */
+
+    /* Estilo dasessão de cachorros para adoção */
+
+    /* Estilo da sessão de gatos para adoção */
+
+    /* Estilo do formulário de contato */
+
+    /* Estilo do footer */
