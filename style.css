@@ -8,8 +8,8 @@
     /* estilizando o cabeçalho */
     header {
         padding: 16px;
-        background: #0F4271;
-        color: #E8B13D;
+        background: #E8B13D;
+        color: #0F4271;
     }
 
     /* Estilo do menu */
@@ -20,7 +20,7 @@
     }
 
     header nav li a {
-        color: #E8B13D;
+        color: #0F4271;
         text-decoration: none;
     }
 
@@ -56,15 +56,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        background-color: #0F4271;
+        color: #fff;
+    }
+
+    #caes,
+    #gatos {
+        padding: 80px;  
     }
 
     #caes {
         background-color: #E8B13D;
-        padding: 80px;
         color: #0F4271;
     }
 
-    #caes .container {
+    #gatos {
+        background-color: #0F4271;
+        color: #E8B13D;
+    }
+
+
+    #caes .container, 
+    #gatos .container {
         display: flex;
         justify-content: space-between;
     }
@@ -90,12 +103,30 @@
         margin-bottom: 10px;
     }
 
-    #caes .botao_adote {
-        background-color: #0F4271;
-        color: #E8B13D;
+    #caes .botao_adote ,#gatos .botao_adote{
         padding: 8px;
         font-weight: 800;
     }
+
+    #caes .botao_adote {
+        background-color: #0F4271;
+        color: #E8B13D;
+    }
+
+    #gatos .botao_adote {
+        background-color: #E8B13D;
+        color:#0F4271;
+        
+    }
+
+    #gatos .botao_adote :hover{
+        background-color: #0F4271;
+    }
+    
+
+
+
+
 
 
 
