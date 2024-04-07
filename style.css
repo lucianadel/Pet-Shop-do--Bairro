@@ -62,7 +62,7 @@
 
     #caes,
     #gatos {
-        padding: 80px;  
+        padding: 80px;
     }
 
     #caes {
@@ -76,7 +76,7 @@
     }
 
 
-    #caes .container, 
+    #caes .container,
     #gatos .container {
         display: flex;
         justify-content: space-between;
@@ -103,7 +103,8 @@
         margin-bottom: 10px;
     }
 
-    #caes .botao_adote ,#gatos .botao_adote{
+    #caes .botao_adote,
+    #gatos .botao_adote {
         padding: 8px;
         font-weight: 800;
     }
@@ -115,14 +116,62 @@
 
     #gatos .botao_adote {
         background-color: #E8B13D;
-        color:#0F4271;
-        
+        color: #0F4271;
+
     }
 
-    #gatos .botao_adote :hover{
-        background-color: #0F4271;
+    #links_rede_social {
+        margin: 20px auto;
+        text-align: center;
+        /* Centraliza o conteúdo */
     }
-    
+
+    /* Título */
+    .titulo {
+        margin-bottom: 10px;
+        font-size: 1.2em;
+    }
+
+    /* Lista de links */
+    .links {
+        padding: 0;
+        list-style: none;
+        /* Remove o marcador padrão da lista */
+    }
+
+    /* Item da lista */
+    .item-facebook {
+        display: inline-block;
+        /* Faz com que os itens fiquem na mesma linha */
+        margin: 5px;
+    }
+
+    /* Link */
+    .links a {
+        text-decoration: none;
+        /* Remove o underline do link */
+        color: #000;
+        /* Define a cor do texto do link */
+    }
+
+    /* Imagem do link */
+    .links img {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Efeito hover para o link */
+    .links a:hover {
+        opacity: 0.7;
+        /* Diminui a opacidade do link ao passar o mouse */
+    }
+
+
+
+
+
+
+
 
 
 
