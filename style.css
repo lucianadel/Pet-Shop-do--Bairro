@@ -1,18 +1,19 @@
-    /* reset */
     * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    /* estilizando o cabeçalho */
+    body {
+        font-family: "Oswald", sans-serif;
+    }
+
     header {
         padding: 16px;
         background: #E8B13D;
         color: #0F4271;
     }
 
-    /* Estilo do menu */
     header nav li {
         display: inline;
         margin-left: 24px;
@@ -36,8 +37,6 @@
         justify-content: space-between;
     }
 
-
-    /* Estilo so sobre   */
     #sobre h1,
     .animal_titulo {
         font-size: 60px;
@@ -51,7 +50,6 @@
     }
 
     #sobre {
-
         height: 80vh;
         display: flex;
         justify-content: center;
@@ -123,66 +121,44 @@
     #links_rede_social {
         margin: 20px auto;
         text-align: center;
-        /* Centraliza o conteúdo */
     }
 
-    /* Título */
     .titulo-nos-acompanhe {
         margin-bottom: 1px;
         font-size: 1.2em;
-
-
     }
 
-    /* Lista de links */
     .links {
         padding: 0;
         list-style: none;
         display: flex;
         justify-content: center;
-
-        /* Remove o marcador padrão da lista */
     }
 
-    /* Item da lista */
     .item-facebook {
         display: inline-block;
-        /* Faz com que os itens fiquem na mesma linha */
         margin: 5px;
     }
 
-    /* Link */
     .links a {
         text-decoration: none;
-        /* Remove o underline do link */
         color: #000;
-        /* Define a cor do texto do link */
         padding: 10px;
-
-
     }
 
-    /* Imagem do link */
     .links img {
         width: 30px;
         height: 30px;
         margin: 10px;
-
     }
 
-    /* Efeito hover para o link */
     .links a:hover {
         opacity: 0.7;
-        /* Diminui a opacidade do link ao passar o mouse */
-
     }
 
-
-    /* Formulário */
     form {
         margin: 20px auto;
         width: 400px;
-        /* Ajustar a largura de acordo com o layout */
         padding: 20px;
         border: 4px solid #ccc;
         border-radius: 5px;
@@ -191,8 +167,7 @@
     form h1 {
         text-align: center;
     }
-    
-    /* Campos do formulário */
+
     input,
     textarea {
         width: 100%;
@@ -203,8 +178,6 @@
         resize: none;
     }
 
-
-    /* Botão enviar */
     button {
         cursor: pointer;
         background-color: #0F4271;
@@ -215,13 +188,11 @@
         width: 100px;
     }
 
-    /* Efeito hover para o botão */
     button:hover {
         background-color: #E8B13D;
         color: #0F4271;
     }
 
-    /* Rótulos */
     label {
         display: block;
         margin-bottom: 5px;
