@@ -127,15 +127,20 @@
     }
 
     /* Título */
-    .titulo {
-        margin-bottom: 10px;
+    .titulo-nos-acompanhe {
+        margin-bottom: 1px;
         font-size: 1.2em;
+
+
     }
 
     /* Lista de links */
     .links {
         padding: 0;
         list-style: none;
+        display: flex;
+        justify-content: center;
+
         /* Remove o marcador padrão da lista */
     }
 
@@ -152,19 +157,24 @@
         /* Remove o underline do link */
         color: #000;
         /* Define a cor do texto do link */
+        padding: 10px;
+
+
     }
 
     /* Imagem do link */
     .links img {
         width: 30px;
         height: 30px;
-        flex-direction: column;
+        margin: 10px;
+
     }
 
     /* Efeito hover para o link */
     .links a:hover {
         opacity: 0.7;
         /* Diminui a opacidade do link ao passar o mouse */
+
     }
 
 
@@ -172,13 +182,16 @@
     form {
         margin: 20px auto;
         width: 400px;
-
         /* Ajustar a largura de acordo com o layout */
         padding: 20px;
         border: 4px solid #ccc;
         border-radius: 5px;
     }
 
+    form h1 {
+        text-align: center;
+    }
+    
     /* Campos do formulário */
     input,
     textarea {
@@ -189,6 +202,7 @@
         margin-bottom: 10px;
         resize: none;
     }
+
 
     /* Botão enviar */
     button {
@@ -212,80 +226,3 @@
         display: block;
         margin-bottom: 5px;
     }
-
-
-    /* section {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        width: 800px;
-        margin: 0 auto;
-        background-color: #E8B13D;
-    }
-
-    #gato{
-        background-color:#0F4271 ;
-    }
-
-    section div {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        width: 100%;
-        max-width: 800px;
-        padding: 20px;
-        border: 1px solid #ddd;
-        border-radius: 10px;
-    }
-
-    section div img {
-        width: 200px;
-        margin: 10px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-
-    section div p {
-        text-align: left;
-        font-size: 16px;
-        line-height: 1.5;
-        margin: 10px;
-        color: #0F4271 ;
-    }
-
-    section div h2 {
-        margin: 0;
-        padding: 10px;
-        text-align: center;
-        color:#E8B13D;
-    }
-
-    section h1 {
-        text-align: center;
-        font-size: 24px;
-        margin: 20px 0;
-        
-    } */
-
-
-
-
-
-
-
-
-
-
-
-
-    /* Estilo da sessão de início com nome e apresentação */
-
-    /* Estilo dasessão de cachorros para adoção */
-
-    /* Estilo da sessão de gatos para adoção */
-
-    /* Estilo do formulário de contato */
-
-    /* Estilo do footer */
